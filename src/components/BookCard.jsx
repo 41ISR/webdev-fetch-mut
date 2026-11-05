@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const BookCard = ({author_name, first_publish_year, title, cover_i}) => {
+const BookCard = ({author_name, first_publish_year, title, cover_i}  ) => {
     return (
         <Link className="book-card" to={'/book'}>
             <div className="book-image">
